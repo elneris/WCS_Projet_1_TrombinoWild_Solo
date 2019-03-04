@@ -1,0 +1,147 @@
+/* NAVBAR */
+
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #212529;
+}
+
+#mainNav .navbar-brand {
+  color: #fed136;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+@media (min-width: 750px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #212529;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+/* IMAGE ENTETE */
+
+header.masthead {
+  text-align: center;
+  color: orange;
+  background-image: url("image/fond.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+}
+
+header.masthead .intro-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 750px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 40px;
+  }
+}
+
+/* CONTENU */
+
+.colonne-milieu{
+    width: 80%;
+    margin: 40px auto;
+    border: 2px solid #888;
+    box-shadow:  0px 0px 2px #AAA;
+    background-color: white;
+    padding: 20px 50px;
+}
+
+.colonne-milieu h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0px 50px 0px;
+}
+
+.colonne-milieu span{
+    color: orange;
+}
+
+/* FOOTER */
+
+.footer{
+    clear: both;
+    width: 100%;
+    border-top: 2px solid #888;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #212529;
+    margin-top: 80px;
+    }
+
+    
+
+.footer p{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+.img-footer{
+    width: 100%;
+    text-align: center;
+}
+
+.wild{
+    border-radius: 50%;
+}
