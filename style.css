@@ -1,8 +1,10 @@
 /* GLOBAL */
 
 body{
-    background-color: pink;
+    background-image: url(image/desk-3139127.jpg);
+    background-size : 100%;
     padding-top: 50px;
+    background-attachment: fixed;
 }
 
 /* CONTENU DETAIL */
