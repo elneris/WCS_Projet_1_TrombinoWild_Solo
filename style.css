@@ -2,7 +2,7 @@
 
 body {
 	background-image: url(image/desk-3139127.jpg);
-	background-size: 100%;
+	background-size: cover;
 	padding-top: 50px;
 	background-attachment: fixed;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .detail_titre {
-	color: orange;
+	color: #243b5e;
 }
 
 .container .row .detail_img {
@@ -35,7 +35,7 @@ body {
 }
 
 .container .row div .detail_img {
-	border-radius: 20px;
+    border-radius: 20px;
 }
 
 
@@ -43,11 +43,15 @@ body {
     border : 2px solid #888;
     box-shadow: 0 0 2px #AAA;
     padding: 5% 5%;
-    background-image: url(image/bg_lblue.png);
     font-size: 30px;
     word-break: break-all;
 }
-
+.lang-PHP{
+    background-image: url(image/bg_lblue.png);
+}
+.lang-JS{
+    background-image: url(image/bg_lyellow.png);
+}
 @media (max-width: 992px) {
 	.detail_descri {
 		margin-top: 20px;
