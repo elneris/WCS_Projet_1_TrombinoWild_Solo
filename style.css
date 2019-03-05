@@ -221,40 +221,46 @@ header.masthead .intro-text .intro-heading {
 
 /* CONTENU TROMBI */
 
-.ligne {
+.trombi_carte {
+  display:flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-.onglet { 
-    justify-content: center; 
+.trombi_ligne {
+  margin-bottom: 20px;
+}
+
+.trombi_onglet { 
+  justify-content: center; 
   font-size: 30px;
   margin-top:150px;
-  
   }
 
 
-.photoElne { width: 18rem;
-        height: 20em;
-        background-image: url("images/elneris.jpg");
-        background-size: 18em;
+.photoElne { 
+  height: 20em;
+  background-image: url("images/elneris.jpg");
+  background-size: cover;
  }
 
 .photoElne:hover {
   background-image: url("images/elneris2.jpg");
-    background-size: 18em;
-    }
+}
 
 
-.photoMartin { width: 18rem;
-        height: 20em;
-        background-image: url("images/martin2.jpg");
-        background-size: 18em;
- }
+.photoMartin {
+  height: 20em;
+  background-image: url("images/martin2.jpg");
+  background-size: cover;
+}
 
 .photoMartin:hover {
   background-image: url("images/martin.jpg");
-    background-size: 18em;
-    }
+}
 
 
-.trombi_nom {text-align: center;}
+.trombi_nom {
+  text-align: center;
+}
+
