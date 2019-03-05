@@ -1,26 +1,36 @@
 /* GLOBAL */
 
-body{
-    background-color: pink;
-    padding-top: 50px;
+body {
+	background-image: url(image/desk-3139127.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	background-attachment: fixed;
 }
+.header_logo{
+    height: 103.267px;
+    position: absolute;
+    top: 0;
+}
+
 
 /* CONTENU DETAIL */
 
-.detail_present p, .detail_present h2 {
-    font-family: 'Century Gothic', Verdana, Calibri, serif;
-    text-align: left;
+.detail_present p,
+.detail_present h2 {
+	font-family: 'Century Gothic', Verdana, Calibri, serif;
+	text-align: left;
 }
-.detail_titre{
-    color: orange;
+
+.detail_titre {
+	color: #243b5e;
 }
 
 .container .row .detail_img {
-    height: 100%;
-    width :100%;
+	height: 100%;
+	width: 100%;
 }
 
-.container .row div {
+.container .row .detail_div {
     border-radius: 20px;
 }
 
@@ -28,21 +38,41 @@ body{
     border-radius: 20px;
 }
 
+
 .container .row .detail_descri{
     border : 2px solid #888;
     box-shadow: 0 0 2px #AAA;
-    padding: 15% 5%;
-    background-color: green;
+    padding: 5% 5%;
+    font-size: 30px;
+    word-break: break-all;
 }
-
-@media (max-width: 992px){
-    .detail_descri {
-        margin-top: 20px;
+.lang-PHP{
+    background-image: url(image/bg_lblue.png);
+}
+.lang-JS{
+    background-image: url(image/bg_lyellow.png);
+}
+@media (max-width: 992px) {
+	.detail_descri {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 768px){
+    .container .row .detail_descri{
+        font-size: 20px;
+    }
+    .header_logo{
+        height: 56px;
+    }
+}
+@media (max-width: 375px){
+    .container .row .detail_descri{
+      font-size:16px;
     }
 }
 
-.container section.detail_row{
-    margin: 50px;
+.container section.detail_row {
+	margin: 50px;
 }
 
 .container section.row.detail_present{
@@ -50,104 +80,114 @@ body{
     box-shadow: 0 0 2px #AAA;
     padding: 5% 5%;
     border-radius: 20px;
-    background-color: red;
+    background-image: url(image/bg_lgreen.png);
+
 }
 
 /* NAVBAR */
 
 #mainNav {
-  background-color: #212529;
+	background-color: #212529;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: #212529;
+	font-size: 12px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: white;
+	border: 0;
+	background-color: #212529;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+	color: #fed136;
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+	color: #fec503;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: white;
+	font-size: 90%;
+	font-weight: 400;
+	padding: 0.75em 0;
+	letter-spacing: 1px;
+	color: white;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+	color: #fed136;
 }
 
 @media (min-width: 750px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #212529;
-  }
-  #mainNav .navbar-brand {
-    font-size: 1.75em;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
-  }
+	#mainNav {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		background-color: #212529;
+	}
+
+	#mainNav .navbar-brand {
+		font-size: 1.75em;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	#mainNav .navbar-nav .nav-item .nav-link {
+		padding: 1.1em 1em !important;
+	}
+
+	#mainNav.navbar-shrink {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #212529;
+	}
+
+	#mainNav.navbar-shrink .navbar-brand {
+		font-size: 1.25em;
+		padding: 12px 0;
+	}
 }
 
 /* IMAGE ENTETE accueil */
 
 header.masthead {
-  text-align: center;
-  color: orange;
-  background-image: url("image/fond.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+	text-align: center;
+	color: orange;
+	background-image: url("image/fond.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
 }
 
 header.masthead .intro-text {
-  padding-top: 100px;
-  padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 10px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 10px;
 }
 
 @media (min-width: 750px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 65px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 40px;
-  }
+	header.masthead .intro-text {
+		padding-top: 300px;
+		padding-bottom: 200px;
+	}
+
+	header.masthead .intro-text .intro-heading {
+		font-size: 65px;
+		font-weight: 700;
+		line-height: 75px;
+		margin-bottom: 40px;
+	}
 }
 
 /* IMAGE ENTETE detail */
@@ -155,24 +195,24 @@ header.masthead .intro-text .intro-heading {
 
 /* CONTENU ACCUEIL*/
 
-.colonne-milieu{
-    width: 80%;
-    margin: 40px auto;
-    border: 2px solid #888;
-    box-shadow:  0px 0px 2px #AAA;
-    background-color: white;
-    padding: 20px 50px;
+.colonne-milieu {
+	width: 80%;
+	margin: 40px auto;
+	border: 2px solid #888;
+	box-shadow: 0px 0px 2px #AAA;
+	background-color: white;
+	padding: 20px 50px;
 }
 
-.colonne-milieu h1{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 28px;
-    margin: 20px 0px 50px 0px;
+.colonne-milieu h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 28px;
+	margin: 20px 0px 50px 0px;
 }
 
-.colonne-milieu span{
-    color: orange;
+.colonne-milieu span {
+	color: orange;
 }
 
 /* FOOTER */
@@ -185,33 +225,122 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 30px;
     background-color: #212529;
     margin-top: 80px;
-    }
-
-    
-
-.footer p{
-    font-size: 13px;
-    text-align: center;
-    color: white;
 }
 
-.img-footer{
-    width: 100%;
-    text-align: center;
+
+.footer p {
+	font-size: 13px;
+	text-align: center;
+	color: white;
 }
 
-.wild{
-    border-radius: 50%;
+.img-footer {
+	width: 100%;
+	text-align: center;
+}
+
+.wild {
+	border-radius: 50%;
 }
 
 /* CONTENU CONTACT */
 
-.contact_info{
-	margin-bottom: 2em;
-	margin-top: 2em;
-
+.contact_info {
+	border: 2px solid #888;
+	box-shadow: 0px 0px 2px #AAA;
+	margin-top: 90px;
+	margin-bottom: 50px;
 }
-.contact_img{
+
+.contact_img {
 	width: 100%;
 	height:100%;
 }
+
+
+/* CONTENU TROMBI */
+
+.trombi_carte {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.trombi_ligne {
+  margin-bottom: 20px;
+}
+
+.trombi_onglet { 
+  justify-content: center; 
+  font-size: 30px;
+  margin-top:150px;
+  }
+
+
+.photoElne { 
+  height: 20em;
+  background-image: url("images/elneris.jpg");
+  background-size: cover;
+ }
+
+ .photoJulie { 
+  height: 20em;
+  background-image: url("");
+  background-size: cover;
+ }
+
+ .photoNico { 
+  height: 20em;
+  background-image: url("");
+  background-size: cover;
+ }
+
+@media (min-width: 992px) {
+	.photoElne:hover {
+	  background-image: url("images/elneris2.jpg");
+	}
+	.photoMartin:hover {
+  	background-image: url("images/martin.jpg");
+	}
+  .photoJulie:hover {
+    background-image: url("");
+  }
+  .photoNico:hover {
+    background-image: url("");
+  }
+}
+
+.photoMartin {
+  height: 20em;
+  background-image: url("images/martin2.jpg");
+  background-size: cover;
+}
+
+
+
+.trombi_nom {
+	text-align: center;
+	height: 100%;
+}
+
+.contact_card_text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact_map {
+	border: 2px solid #888;
+	border-style: double;
+	border-width: 5px;
+	padding: 0;
+}
+
+.contact_form {
+	margin-bottom: 0;
+}
+
+.contact_button {
+	position: absolute;
+	left: 41%;
+}
+
