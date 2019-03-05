@@ -155,7 +155,7 @@ header.masthead .intro-text .intro-heading {
 /* IMAGE ENTETE detail */
 
 
-/* CONTENU */
+/* CONTENU ACCUEIL*/
 
 .colonne-milieu{
     width: 80%;
@@ -204,4 +204,16 @@ header.masthead .intro-text .intro-heading {
 
 .wild{
     border-radius: 50%;
+}
+
+/* CONTENU CONTACT */
+
+.contact_info{
+	margin-bottom: 2em;
+	margin-top: 2em;
+
+}
+.contact_img{
+	width: 100%;
+	height:100%;
 }
