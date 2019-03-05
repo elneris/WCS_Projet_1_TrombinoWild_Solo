@@ -279,6 +279,18 @@ header.masthead .intro-text .intro-heading {
   background-size: cover;
  }
 
+ .photoJulie { 
+  height: 20em;
+  background-image: url("");
+  background-size: cover;
+ }
+
+ .photoNico { 
+  height: 20em;
+  background-image: url("");
+  background-size: cover;
+ }
+
 @media (min-width: 992px) {
 	.photoElne:hover {
 	  background-image: url("images/elneris2.jpg");
@@ -286,6 +298,12 @@ header.masthead .intro-text .intro-heading {
 	.photoMartin:hover {
   	background-image: url("images/martin.jpg");
 	}
+  .photoJulie:hover {
+    background-image: url("");
+  }
+  .photoNico:hover {
+    background-image: url("");
+  }
 }
 
 .photoMartin {
