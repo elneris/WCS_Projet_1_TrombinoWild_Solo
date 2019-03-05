@@ -257,19 +257,19 @@ header.masthead .intro-text .intro-heading {
   background-size: cover;
  }
 
-.photoElne:hover {
-  background-image: url("images/elneris2.jpg");
+@media (min-width: 992px) {
+	.photoElne:hover {
+	  background-image: url("images/elneris2.jpg");
+	}
+	.photoMartin:hover {
+  	background-image: url("images/martin.jpg");
+	}
 }
-
 
 .photoMartin {
   height: 20em;
   background-image: url("images/martin2.jpg");
   background-size: cover;
-}
-
-.photoMartin:hover {
-  background-image: url("images/martin.jpg");
 }
 
 
