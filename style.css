@@ -22,7 +22,7 @@ body{
     width :100%;
 }
 
-.container .row div {
+.container .row .detail_div {
     border-radius: 20px;
 }
 
