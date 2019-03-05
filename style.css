@@ -6,6 +6,11 @@ body{
     padding-top: 50px;
     background-attachment: fixed;
 }
+.header_logo{
+    height: 103.267px;
+    position: absolute;
+    top: 0;
+}
 
 /* CONTENU DETAIL */
 
@@ -33,13 +38,28 @@ body{
 .container .row .detail_descri{
     border : 2px solid #888;
     box-shadow: 0 0 2px #AAA;
-    padding: 15% 5%;
-    background-color: green;
+    padding: 5% 5%;
+    background-image: url(image/bg_lblue.png);
+    font-size: 30px;
+    word-break: break-all;
 }
 
 @media (max-width: 992px){
     .detail_descri {
         margin-top: 20px;
+    }
+}
+@media (max-width: 768px){
+    .container .row .detail_descri{
+        font-size: 20px;
+    }
+    .header_logo{
+        height: 56px;
+    }
+}
+@media (max-width: 375px){
+    .container .row .detail_descri{
+      font-size:16px;
     }
 }
 
@@ -52,7 +72,7 @@ body{
     box-shadow: 0 0 2px #AAA;
     padding: 5% 5%;
     border-radius: 20px;
-    background-color: red;
+    background-image: url(image/bg_lgreen.png);
 }
 
 /* NAVBAR */
@@ -187,7 +207,7 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 30px;
     background-color: #212529;
     margin-top: 80px;
-    }
+}
 
     
 
