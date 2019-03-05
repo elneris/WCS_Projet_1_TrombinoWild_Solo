@@ -1,32 +1,25 @@
 
-.ligne{ margin-bottom: 20px; }
+.ligne {margin-bottom: 20px;}
 
-.photo {position:relative;
-		
-	}
+.photoElne { width: 18rem;
+				height: 20em;
+				background-image: url("images/elneris.jpg");
+				background-size: 18em;
+ }
 
-.photo img{ opacity:0.5;
-			 width:100%;};
-
-
-
-
- .photo:hover p{ display:none;
-}
+.photoElne:hover {
+	background-image: url("images/elneris2.jpg");
+    background-size: 18em;
+    }
 
 
-.photo p {position: absolute;
-	     font-size: 2em;
-          top: 70%;
-           width:60%;
-      	 
-      	  margin-left: 20%;
-      	text-align: center;
-      	  background-color: grey;
-      	 text-align: center;
-      	 border-radius: 10px;
-      	}
+.photoMartin { width: 18rem;
+				height: 20em;
+				background-image: url("images/martin2.jpg");
+				background-size: 18em;
+ }
 
-
-
-.photo:hover img{ opacity:1; }
+.photoMartin:hover {
+	background-image: url("images/martin.jpg");
+    background-size: 18em;
+    }
