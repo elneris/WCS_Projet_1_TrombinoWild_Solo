@@ -1,6 +1,8 @@
 
 .ligne {margin-bottom: 20px;}
 
+.onglet{justify-content: center;  }
+
 .photoElne { width: 18rem;
 				height: 20em;
 				background-image: url("images/elneris.jpg");
@@ -23,3 +25,6 @@
 	background-image: url("images/martin.jpg");
     background-size: 18em;
     }
+
+
+.trombi_nom {text-align: center;}
