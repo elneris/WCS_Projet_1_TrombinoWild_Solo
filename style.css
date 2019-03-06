@@ -72,9 +72,6 @@ body {
 		font-size: 20px;
 	}
 
-	.header_logo {
-		height: 56px;
-	}
 }
 
 @media (max-width: 375px) {
@@ -350,6 +347,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .nav-pills .nav-link {
+	border:2px solid black;
 	border-radius: 5px;
 	background-color: #F0F0F0;
 	margin-left: 24px;
@@ -359,6 +357,7 @@ header.masthead .intro-text .intro-heading {
 .trombi_nom {
 	text-align: center;
 	height: 100%;
+	color: black;
 }
 
 .contact_card_text {
