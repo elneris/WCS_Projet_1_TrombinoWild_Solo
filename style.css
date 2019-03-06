@@ -289,7 +289,7 @@ header.masthead .intro-text .intro-heading {
 
 .photoElne { 
   height: 20em;
-  background-image: url("images/elneris.jpg");
+  background-image: url("image/elneris.jpg");
   background-size: cover;
  }
 
@@ -300,34 +300,34 @@ header.masthead .intro-text .intro-heading {
 
  .photoJulie { 
   height: 20em;
-  background-image: url("images/julie.jpg");
+  background-image: url("image/julie.jpg");
   background-size: cover;
  }
 
  .photoNico { 
   height: 20em;
-  background-image: url("images/nico.jpg");
+  background-image: url("image/nico.jpg");
   background-size: cover;
  }
 
 .photoMartin {
   height: 20em;
-  background-image: url("images/martin2.jpg");
+  background-image: url("image/martin2.jpg");
   background-size: cover;
 }
 
 @media (min-width: 992px) {
 	.photoElne:hover {
-	  background-image: url("images/elneris2.jpg");
+	  background-image: url("images/elneris3.jpg");
 	}
 	.photoMartin:hover {
-  	background-image: url("images/martin.jpg");
+  	background-image: url("image/martin.jpg");
 	}
   .photoJulie:hover {
-    background-image: url("images/julie2.jpg");
+    background-image: url("image/julie2.jpg");
   }
   .photoNico:hover {
-    background-image: url("images/nico2.jpg");
+    background-image: url("image/nico2.jpg");
   }
 }
 
