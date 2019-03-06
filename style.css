@@ -72,9 +72,6 @@ body {
 		font-size: 20px;
 	}
 
-	.header_logo {
-		height: 56px;
-	}
 }
 
 @media (max-width: 375px) {
@@ -162,6 +159,11 @@ body {
 		font-size: 1.25em;
 		padding: 12px 0;
 	}
+}
+.masthead .navbar .navbar-brand .header_logo{
+	max-height: 100%;
+	width: auto;
+	display: block;
 }
 
 /* IMAGE ENTETE accueil */
