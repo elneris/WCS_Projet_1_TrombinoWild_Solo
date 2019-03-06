@@ -76,11 +76,11 @@ body {
 	}
 }
 
-.container section.detail_row {
+.container div.detail_row {
 	margin: 50px;
 }
 
-.container section.row.detail_present {
+.container div.row.detail_present {
 	border: 2px solid #888;
 	box-shadow: 0 0 2px #AAA;
 	padding: 5% 5%;
