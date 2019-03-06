@@ -1,12 +1,9 @@
 /* GLOBAL */
 
-
 @font-face {
 	font-family: "abel";
 	src: local("police/Abel-Regular.ttf");
 }
-
-
 
 body {
 	font-family: "abel";
@@ -21,7 +18,6 @@ body {
 	position: absolute;
 	top: 0;
 }
-
 
 /* CONTENU DETAIL */
 
@@ -198,9 +194,6 @@ header.masthead .intro-text .intro-heading {
 	}
 }
 
-/* IMAGE ENTETE detail */
-
-
 /* CONTENU ACCUEIL*/
 
 .colonne-milieu {
@@ -269,7 +262,6 @@ header.masthead .intro-text .intro-heading {
 	height: 100%;
 }
 
-
 /* CONTENU TROMBI */
 
 .trombi_carte {
@@ -288,38 +280,33 @@ header.masthead .intro-text .intro-heading {
 	margin-top: 150px;
 }
 
-
-
 .photoElne { 
   height: 20em;
   background-image: url("image/elneris.jpg");
   background-size: cover;
  }
 
-
 .img-php {
 	height: 20em;
 	width: 100%;
 }
 
+.photoJulie { 
+	height: 20em;
+	background-image: url("image/julie.jpg");
+	background-size: cover;
+}
 
-
- .photoJulie { 
-  height: 20em;
-  background-image: url("image/julie.jpg");
-  background-size: cover;
- }
-
- .photoNico { 
-  height: 20em;
-  background-image: url("image/nico.jpg");
-  background-size: cover;
+.photoNico { 
+	height: 20em;
+	background-image: url("image/nico.jpg");
+	background-size: cover;
  }
 
 .photoMartin {
-  height: 20em;
-  background-image: url("image/martin2.jpg");
-  background-size: cover;
+	height: 20em;
+	background-image: url("image/martin2.jpg");
+	background-size: cover;
 }
 
 @media (min-width: 992px) {
@@ -331,15 +318,14 @@ header.masthead .intro-text .intro-heading {
   	background-image: url("image/martin.jpg");
 	}
 
-  .photoJulie:hover {
+  	.photoJulie:hover {
     background-image: url("image/julie2.jpg");
-  }
+  	}
 
-  .photoNico:hover {
+  	.photoNico:hover {
     background-image: url("image/nico2.jpg");
-  }
+  	}
 }
-
 
 .nav-pills .nav-link.active {
 	color: #fff !important;
@@ -352,7 +338,6 @@ header.masthead .intro-text .intro-heading {
 	background-color: #F0F0F0;
 	margin-left: 24px;
 }
-
 
 .trombi_nom {
 	text-align: center;
