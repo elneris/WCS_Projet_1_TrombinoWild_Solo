@@ -290,15 +290,21 @@ header.masthead .intro-text .intro-heading {
 
  .photoJulie { 
   height: 20em;
-  background-image: url("");
+  background-image: url("images/julie.jpg");
   background-size: cover;
  }
 
  .photoNico { 
   height: 20em;
-  background-image: url("");
+  background-image: url("images/nico.jpg");
   background-size: cover;
  }
+
+.photoMartin {
+  height: 20em;
+  background-image: url("images/martin2.jpg");
+  background-size: cover;
+}
 
 @media (min-width: 992px) {
 	.photoElne:hover {
@@ -308,18 +314,14 @@ header.masthead .intro-text .intro-heading {
   	background-image: url("images/martin.jpg");
 	}
   .photoJulie:hover {
-    background-image: url("");
+    background-image: url("images/julie2.jpg");
   }
   .photoNico:hover {
-    background-image: url("");
+    background-image: url("images/nico2.jpg");
   }
 }
 
-.photoMartin {
-  height: 20em;
-  background-image: url("images/martin2.jpg");
-  background-size: cover;
-}
+
 
 
 
