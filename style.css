@@ -160,7 +160,7 @@ body {
 		padding: 12px 0;
 	}
 }
-.masthead .navbar .navbar-brand .header_logo{
+.header .navbar .navbar-brand .header_logo{
 	max-height: 100%;
 	width: auto;
 	display: block;
