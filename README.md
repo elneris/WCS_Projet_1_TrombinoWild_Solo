@@ -1,4 +1,4 @@
-# projet 1 : Trombino'WILD
+# Projet 1 : Trombino'WILD
 
 Groupe DHCH Wild : 
 
