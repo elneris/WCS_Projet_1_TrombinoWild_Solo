@@ -283,6 +283,11 @@ header.masthead .intro-text .intro-heading {
   background-size: cover;
  }
 
+ .img-php { 
+  height: 20em;
+  width: 100%;
+ }
+
  .photoJulie { 
   height: 20em;
   background-image: url("");
