@@ -1,12 +1,9 @@
 /* GLOBAL */
 
-
 @font-face {
 	font-family: "abel";
-	src: local("police/Abel-Regular.ttf") format("truetype");
+	src: local("police/Abel-Regular.ttf");
 }
-
-
 
 body {
 	font-family: "abel";
@@ -21,7 +18,6 @@ body {
 	position: absolute;
 	top: 0;
 }
-
 
 /* CONTENU DETAIL */
 
@@ -80,11 +76,11 @@ body {
 	}
 }
 
-.container section.detail_row {
+.container div.detail_row {
 	margin: 50px;
 }
 
-.container section.row.detail_present {
+.container div.row.detail_present {
 	border: 2px solid #888;
 	box-shadow: 0 0 2px #AAA;
 	padding: 5% 5%;
@@ -198,9 +194,6 @@ header.masthead .intro-text .intro-heading {
 	}
 }
 
-/* IMAGE ENTETE detail */
-
-
 /* CONTENU ACCUEIL*/
 
 .colonne-milieu {
@@ -235,9 +228,8 @@ header.masthead .intro-text .intro-heading {
 	margin-top: 80px;
 }
 
-
 .footer p {
-	font-size: 13px;
+	font-size: 17px;
 	text-align: center;
 	color: white;
 }
@@ -255,6 +247,8 @@ header.masthead .intro-text .intro-heading {
 	color: red;
 }
 
+
+
 /* CONTENU CONTACT */
 
 .contact_info {
@@ -268,7 +262,6 @@ header.masthead .intro-text .intro-heading {
 	width: 100%;
 	height: 100%;
 }
-
 
 /* CONTENU TROMBI */
 
@@ -288,38 +281,33 @@ header.masthead .intro-text .intro-heading {
 	margin-top: 150px;
 }
 
-
-
 .photoElne { 
   height: 20em;
   background-image: url("image/elneris.jpg");
   background-size: cover;
  }
 
-
 .img-php {
 	height: 20em;
 	width: 100%;
 }
 
+.photoJulie { 
+	height: 20em;
+	background-image: url("image/julie.jpg");
+	background-size: cover;
+}
 
-
- .photoJulie { 
-  height: 20em;
-  background-image: url("image/julie.jpg");
-  background-size: cover;
- }
-
- .photoNico { 
-  height: 20em;
-  background-image: url("image/nico.jpg");
-  background-size: cover;
+.photoNico { 
+	height: 20em;
+	background-image: url("image/nico.jpg");
+	background-size: cover;
  }
 
 .photoMartin {
-  height: 20em;
-  background-image: url("image/martin2.jpg");
-  background-size: cover;
+	height: 20em;
+	background-image: url("image/martin2.jpg");
+	background-size: cover;
 }
 
 @media (min-width: 992px) {
@@ -331,15 +319,14 @@ header.masthead .intro-text .intro-heading {
   	background-image: url("image/martin.jpg");
 	}
 
-  .photoJulie:hover {
+  	.photoJulie:hover {
     background-image: url("image/julie2.jpg");
-  }
+  	}
 
-  .photoNico:hover {
+  	.photoNico:hover {
     background-image: url("image/nico2.jpg");
-  }
+  	}
 }
-
 
 .nav-pills .nav-link.active {
 	color: #fff !important;
@@ -352,7 +339,6 @@ header.masthead .intro-text .intro-heading {
 	background-color: #F0F0F0;
 	margin-left: 24px;
 }
-
 
 .trombi_nom {
 	text-align: center;
