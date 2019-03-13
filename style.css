@@ -67,6 +67,9 @@ body {
 	.container .row .detail_descri {
 		font-size: 20px;
 	}
+	.container div.row.detail_present{
+		padding:  5%;
+	}
 
 }
 
@@ -83,7 +86,7 @@ body {
 .container div.row.detail_present {
 	border: 2px solid #888;
 	box-shadow: 0 0 2px #AAA;
-	padding: 5% 5%;
+	padding: 5px 5px;
 	border-radius: 20px;
 	background-color: #F0F0F0;
 }
@@ -178,6 +181,7 @@ header.masthead .intro-text .intro-heading {
 	font-weight: 700;
 	line-height: 50px;
 	margin-bottom: 10px;
+	text-shadow: 1px 1px 2px black;
 }
 
 @media (min-width: 750px) {
@@ -197,12 +201,12 @@ header.masthead .intro-text .intro-heading {
 /* CONTENU ACCUEIL*/
 
 .colonne-milieu {
-	width: 80%;
+	width: 100%;
 	margin: 40px auto;
 	border: 2px solid #888;
 	box-shadow: 0px 0px 2px #AAA;
 	background-color: white;
-	padding: 20px 50px;
+	padding: 20px 10px;
 }
 
 .colonne-milieu h1 {
@@ -214,6 +218,14 @@ header.masthead .intro-text .intro-heading {
 
 .colonne-milieu span {
 	color: orange;
+}
+
+@media (min-width: 750px) {
+	.colonne-milieu {
+		width: 80%;
+		padding: 20px 50px;
+		margin: 40px auto;
+	}
 }
 
 /* FOOTER */
@@ -337,7 +349,8 @@ header.masthead .intro-text .intro-heading {
 	border:2px solid black;
 	border-radius: 5px;
 	background-color: #F0F0F0;
-	margin-left: 24px;
+	margin-left: 12px;
+	margin-bottom: 5px;
 }
 
 .trombi_nom {
