@@ -1,12 +1,7 @@
 /* GLOBAL */
 
-@font-face {
-	font-family: "abel";
-	src: local("police/Abel-Regular.ttf");
-}
 
 body {
-	font-family: "abel";
 	background-image: url(image/desk-3139127.jpg);
 	background-size: cover;
 	padding-top: 50px;
