@@ -30,11 +30,11 @@ require 'header.php';
 				</div>
 			</section>
 			<section>
-				<div class="row">
+				<div class="formulaireContact">
 					<div class="col-sm-12 col-lg-6 contact_map">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.030187550418!2d-0.5630998845741431!3d44.841318579098456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527cba74d1bdf%3A0xb92bcdcad0920688!2sWild+Code+School%2C+Formation+d%C3%A9veloppeur+web!5e0!3m2!1sfr!2sfr!4v1551694947908" width="100%" height="100%" allowfullscreen></iframe>
 					</div>
-					<div class="col-sm-12 col-lg-6">
+					<div class="col-sm-12 col-lg-6 contact_formulaire">
 						<form>
 							<div class="form-group contact_form">
 								<input type="text" class="form-control" id="inputName" placeholder="Name">
@@ -47,7 +47,7 @@ require 'header.php';
 								<label for="InputEmail"></label>
 								<input type="email" class="form-control" id="InputEmail" placeholder="Objet">
 							</div>
-							<div class="form-group">
+							<div class="form-group contact_form">
 								<label for="FormControlTextarea"></label>
 								<textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
 							</div>

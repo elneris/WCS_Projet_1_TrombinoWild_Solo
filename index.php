@@ -4,19 +4,11 @@ require 'header.php';
 
 ?> 
 
-			<!-- IMAGE ENTETE -->
-
-			<div class="container">
-		      <div class="intro-text">
-		         <div class="intro-heading text-uppercase">Bienvenue a la DHCH WILD</div>
-		         <a class="btn btn-warning btn-xl text-uppercase js-scroll-trigger" href="https://wildcodeschool.fr/" target="_blank">WILD CODE SCHOOL</a>
-		      </div>
-		   </div>
 		</header>
 
 		<!-- CONTENU -->
 
-		<section>
+		
 			<div class="container">
 				<div class="colonne-milieu">
 					<h2>Bienvenue sur <span>DHCH Wild</span></h2>
@@ -26,7 +18,7 @@ require 'header.php';
 					<p>Merci à vous et bonne visite !</p>
 				</div>
 			</div>	
-		</section>
+		
 
 		<section>
 			<div class="container">

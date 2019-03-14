@@ -14,6 +14,105 @@ body {
 	top: 0;
 }
 
+/* NAVBAR */
+
+#mainNav {
+	background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+	font-size: 12px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: white;
+	border: 0;
+	background-color: #212529;
+}
+
+#mainNav .navbar-brand {
+	color: #fed136;
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+	color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-size: 90%;
+	font-weight: 400;
+	padding: 0.75em 0;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+	color: #fed136;
+}
+
+@media (min-width: 750px) {
+	#mainNav {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		background-color: #212529;
+	}
+
+	#mainNav .navbar-brand {
+		font-size: 1.75em;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	#mainNav .navbar-nav .nav-item .nav-link {
+		padding: 1.1em 1em !important;
+	}
+
+	#mainNav.navbar-shrink {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #212529;
+	}
+
+	#mainNav.navbar-shrink .navbar-brand {
+		font-size: 1.25em;
+		padding: 12px 0;
+	}
+}
+
+/* CONTENU ACCUEIL*/
+
+.colonne-milieu {
+	width: 100%;
+	margin: 80px auto;
+	border: 2px solid #888;
+	box-shadow: 0px 0px 2px #AAA;
+	background-color: white;
+	padding: 20px 10px;
+}
+
+.colonne-milieu h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 28px;
+	margin: 20px 0px 50px 0px;
+}
+
+.colonne-milieu span {
+	color: orange;
+}
+
+@media (min-width: 750px) {
+	.colonne-milieu {
+		width: 80%;
+		padding: 20px 50px;
+		margin: 80px auto;
+	}
+}
+
 /* CONTENU DETAIL */
 
 .detail_present p,
@@ -86,141 +185,108 @@ body {
 	background-color: #F0F0F0;
 }
 
-/* NAVBAR */
+/* CONTENU CONTACT */
 
-#mainNav {
-	background-color: #212529;
-}
-
-#mainNav .navbar-toggler {
-	font-size: 12px;
-	right: 0;
-	padding: 13px;
-	text-transform: uppercase;
-	color: white;
-	border: 0;
-	background-color: #212529;
-}
-
-#mainNav .navbar-brand {
-	color: #fed136;
-}
-
-#mainNav .navbar-brand.active,
-#mainNav .navbar-brand:active,
-#mainNav .navbar-brand:focus,
-#mainNav .navbar-brand:hover {
-	color: #fec503;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 90%;
-	font-weight: 400;
-	padding: 0.75em 0;
-	letter-spacing: 1px;
-	color: white;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-	color: #fed136;
-}
-
-@media (min-width: 750px) {
-	#mainNav {
-		padding-top: 25px;
-		padding-bottom: 25px;
-		background-color: #212529;
-	}
-
-	#mainNav .navbar-brand {
-		font-size: 1.75em;
-		-webkit-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-
-	#mainNav .navbar-nav .nav-item .nav-link {
-		padding: 1.1em 1em !important;
-	}
-
-	#mainNav.navbar-shrink {
-		padding-top: 0;
-		padding-bottom: 0;
-		background-color: #212529;
-	}
-
-	#mainNav.navbar-shrink .navbar-brand {
-		font-size: 1.25em;
-		padding: 12px 0;
-	}
-}
-
-/* IMAGE ENTETE accueil */
-
-header.masthead {
-	text-align: center;
-	color: orange;
-	background-image: url("image/fond.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-}
-
-header.masthead .intro-text {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
-header.masthead .intro-text .intro-heading {
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 50px;
-	margin-bottom: 10px;
-	text-shadow: 1px 1px 2px black;
-}
-
-@media (min-width: 750px) {
-	header.masthead .intro-text {
-		padding-top: 300px;
-		padding-bottom: 200px;
-	}
-
-	header.masthead .intro-text .intro-heading {
-		font-size: 65px;
-		font-weight: 700;
-		line-height: 75px;
-		margin-bottom: 40px;
-	}
-}
-
-/* CONTENU ACCUEIL*/
-
-.colonne-milieu {
-	width: 100%;
-	margin: 40px auto;
+.contact_info {
 	border: 2px solid #888;
 	box-shadow: 0px 0px 2px #AAA;
-	background-color: white;
-	padding: 20px 10px;
+	margin-top: 90px;
+	margin-bottom: 50px;
 }
 
-.colonne-milieu h1 {
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 28px;
-	margin: 20px 0px 50px 0px;
+.contact_img {
+	width: 100%;
+	height: 100%;
 }
 
-.colonne-milieu span {
-	color: orange;
+.formulaireContact{
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	flex-wrap: wrap;
 }
 
-@media (min-width: 750px) {
-	.colonne-milieu {
-		width: 80%;
-		padding: 20px 50px;
-		margin: 40px auto;
+.contact_card_text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact_map {
+	height: 350px;
+	border: 2px solid #888;
+	border-style: double;
+	border-width: 5px;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.contact_form {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0;
+}
+
+.contact_button {
+	position: absolute;
+	left: 41%;
+	margin-top: 20px;
+}
+
+@media (min-width: 992px){
+	.contact_form{
+		margin-left: 0px;
 	}
+}
+
+/* CONTENU TROMBI */
+
+.pillules{
+	padding-top: -20px;
+	margin-top: -45px;
+	margin-bottom: 20px;
+}
+
+.alignement{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap : wrap;
+}
+
+.trombi_carte {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.trombi_ligne {
+	margin-bottom: 20px;
+}
+
+.trombi_onglet {
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 150px;
+}
+
+
+.nav-pills .nav-link.active {
+	color: #fff !important;
+	background-color: orange;
+}
+
+.nav-pills .nav-link {
+	border:2px solid black;
+	border-radius: 5px;
+	background-color: #F0F0F0;
+	margin: 0px 12px;
+	margin-bottom: 5px;
+}
+
+.trombi_nom {
+	text-align: center;
+	height: 100%;
+	color: black;
 }
 
 /* FOOTER */
@@ -252,125 +318,4 @@ header.masthead .intro-text .intro-heading {
 
 .coeur {
 	color: red;
-}
-
-
-
-/* CONTENU CONTACT */
-
-.contact_info {
-	border: 2px solid #888;
-	box-shadow: 0px 0px 2px #AAA;
-	margin-top: 90px;
-	margin-bottom: 50px;
-}
-
-.contact_img {
-	width: 100%;
-	height: 100%;
-}
-
-/* CONTENU TROMBI */
-
-.trombi_carte {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 20px;
-}
-
-.trombi_ligne {
-	margin-bottom: 20px;
-}
-
-.trombi_onglet {
-	justify-content: center;
-	font-size: 30px;
-	margin-top: 150px;
-}
-
-.photoElne { 
-  height: 20em;
-  background-image: url("image/elneris.jpg");
-  background-size: cover;
- }
-
-.img-php {
-	height: 20em;
-	width: 100%;
-}
-
-.photoJulie { 
-	height: 20em;
-	background-image: url("image/julie.jpg");
-	background-size: cover;
-}
-
-.photoNico { 
-	height: 20em;
-	background-image: url("image/nico.jpg");
-	background-size: cover;
- }
-
-.photoMartin {
-	height: 20em;
-	background-image: url("image/martin2.jpg");
-	background-size: cover;
-}
-
-@media (min-width: 992px) {
-	.photoElne:hover {
-	  background-image: url("image/elneris3.jpg");
-	}
-
-	.photoMartin:hover {
-  	background-image: url("image/martin.jpg");
-	}
-
-  	.photoJulie:hover {
-    background-image: url("image/julie2.jpg");
-  	}
-
-  	.photoNico:hover {
-    background-image: url("image/nico2.jpg");
-  	}
-}
-
-.nav-pills .nav-link.active {
-	color: #fff !important;
-	background-color: orange;
-}
-
-.nav-pills .nav-link {
-	border:2px solid black;
-	border-radius: 5px;
-	background-color: #F0F0F0;
-	margin-left: 12px;
-	margin-bottom: 5px;
-}
-
-.trombi_nom {
-	text-align: center;
-	height: 100%;
-	color: black;
-}
-
-.contact_card_text {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.contact_map {
-	border: 2px solid #888;
-	border-style: double;
-	border-width: 5px;
-	padding: 0;
-}
-
-.contact_form {
-	margin-bottom: 0;
-}
-
-.contact_button {
-	position: absolute;
-	left: 41%;
 }
