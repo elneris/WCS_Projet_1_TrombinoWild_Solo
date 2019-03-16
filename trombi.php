@@ -29,10 +29,8 @@ require_once 'fonction.php';
 		   <div class="tab-pane fade show active" id="pills-wanted" role="tabpanel" aria-labelledby="pills-home-tab">
 			   	<div class="container alignement">
 					<?php
-					$showWilders = 'PHP';
-					wildersCard($showWilders);
-					$showWilders = 'JS';
-					wildersCard($showWilders) ?>		
+					wildersCard('PHP');
+					wildersCard('JS') ?>
 				</div>
 			</div>
 			<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">

@@ -125,16 +125,16 @@ body {
 	color: #243b5e;
 }
 
-.container .row .detail_img {
+.container .detail_img {
 	height: 100%;
 	width: 100%;
 }
 
-.container .row .detail_div {
+.container .detail_div {
 	border-radius: 20px;
 }
 
-.container .row div .detail_img {
+.container div .detail_img {
 	border-radius: 20px;
 }
 
@@ -142,13 +142,17 @@ body {
 	font-weight: bold;
 }
 
-.container .row .detail_descri {
+.container .detail_descri {
 	border: 2px solid #888;
 	box-shadow: 0 0 2px #AAA;
 	padding: 3% 3%;
 	font-size: 30px;
 	word-break: break-all;
 	background-color: #F0F0F0;
+}
+.detail_row{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 @media (max-width: 992px) {
@@ -158,17 +162,17 @@ body {
 }
 
 @media (max-width: 768px) {
-	.container .row .detail_descri {
+	.container  .detail_descri {
 		font-size: 20px;
 	}
-	.container div.row.detail_present{
+	.container div.detail_present{
 		padding:  5%;
 	}
 
 }
 
 @media (max-width: 375px) {
-	.container .row .detail_descri {
+	.container  .detail_descri {
 		font-size: 16px;
 	}
 }
@@ -177,10 +181,10 @@ body {
 	margin: 50px;
 }
 
-.container div.row.detail_present {
+.container div.detail_present {
 	border: 2px solid #888;
 	box-shadow: 0 0 2px #AAA;
-	padding: 5px 5px;
+	padding: 2% 2%;
 	border-radius: 20px;
 	background-color: #F0F0F0;
 }
@@ -283,6 +287,9 @@ body {
 	margin-bottom: 5px;
 }
 
+.carte_body{
+	padding: 1.25rem 0px;
+}
 .trombi_nom {
 	text-align: center;
 	height: 100%;
