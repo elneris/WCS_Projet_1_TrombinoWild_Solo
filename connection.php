@@ -2,7 +2,18 @@
 
 $bdd = mysqli_connect('localhost', 'root', 'root', 'trombino')
 or die('could not connect to database');
-$query = 'SELECT * FROM wilder';
+
+try {
+    $dbh = new PDO('mysql:host=localhost;dbname=trombino', 'root', 'root');
+    foreach($dbh->query('SELECT * from wilder') as $row) {
+        $wild = $row;
+    }
+    $dbh = null;
+} catch (PDOException $e) {
+    print "Erreur !: " . $e->getMessage() . "<br/>";
+    die();
+}
+$query = 'SELECT * FROM wilder ORDER BY firstname ASC';
 $response = $bdd->query($query);
 $wilders = array();
 while ($data = mysqli_fetch_array($response))
@@ -28,6 +39,7 @@ while ($data = mysqli_fetch_array($response))
         'presentation' =>[$wildersPresentation],
     ];
 }
+
 ?>
 
 

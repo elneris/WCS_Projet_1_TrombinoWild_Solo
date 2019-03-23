@@ -7,7 +7,7 @@ function wildersCard($parametre)
     require 'connection.php'; ?>
     <?php
     foreach ($wilders as $wilder => $value) {
-        if ($value['cursus'][0] == $parametre) {?>
+        if ($value['cursus'][0] == $parametre || $value['id'][0] > $parametre) {?>
             <div class="col-12 col-md-6 col-lg-3 trombi_carte">
                 <div class="card ">
                     <a href="detail.php?wilder=<?php echo ($value['id'][0]); ?>">
