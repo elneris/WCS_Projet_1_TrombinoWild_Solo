@@ -2,6 +2,8 @@
 
 require 'header.php';
 require_once 'fonction.php';
+require_once 'connection.php';
+require_once 'Wilder.php';
 ?>
 		</header>
 
@@ -29,7 +31,8 @@ require_once 'fonction.php';
 		   <div class="tab-pane fade show active" id="pills-wanted" role="tabpanel" aria-labelledby="pills-home-tab">
 			   	<div class="container alignement">
 					<?php
-					wildersCard(0);
+					wildersCard('PHP');
+                    wildersCard('JS');
 					 ?>
 				</div>
 			</div>
@@ -37,14 +40,14 @@ require_once 'fonction.php';
 		    	<div class="container alignement">
 					<?php
 					$showWilders = 'PHP';
-					wildersCard($showWilders) ?>										
+					wildersCard($showWilders) ?>
 				</div>
 			</div>
 			<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 		    	<div class="container alignement">
 					<?php 
 					$showWilders = 'JS';
-					wildersCard($showWilders) ?>					
+					wildersCard($showWilders) ?>
 				</div>
 			</div>
 		</div>

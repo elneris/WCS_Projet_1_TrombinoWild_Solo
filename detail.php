@@ -2,6 +2,8 @@
 
 require 'header.php';
 require_once 'fonction.php';
+require_once 'connection.php';
+require_once 'Wilder.php';
 ?>
 
             <!-- IMAGE ENTETE -->
