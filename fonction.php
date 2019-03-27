@@ -11,22 +11,27 @@ function wildersCard($parametre)
 
     $wilders = $prep->fetchAll(PDO::FETCH_CLASS,'Wilder');
 
-
     foreach ($wilders as $information){
-         ?>
+        $id = $information->getId();
+        if (!is_file('image/photo/' . $information->getId() . '.jpg')) {
+           $id = 0 ;
+        }
+    ?>
         <div class="col-12 col-md-6 col-lg-3 trombi_carte" >
             <div class="card " >
-                <a href = "detail.php?wilder=<?= $information->getId() ?>" >
+                <a href = "detail.php?wilder=<?= $id ?>" >
                     <div class="card-img-top" >
-                        <img class="card-img-top" src = "image/photo/<?= $information->getId() ?>.jpg" alt = "<?= $information->getFirstname() ?>" >
+                        <img class="card-img-top" src = "image/photo/<?= $id ?>.jpg" alt = "<?= $information->getFirstname() ?>" >
                     </div >
                     <div class="card-body carte_body" >
-                        <h5 class="card-title trombi_nom" > <?= $information->getLastname() . ' ' . $information->getFirstname()  ?> </h5 >
+                        <h5 class="card-title trombi_nom" ><?php echo $information->getLastname() . ' ' . $information->getFirstname() ?></h5 >
                     </div >
                 </a >
             </div >
         </div >
-    <?php }}
+    <?php
+
+        }}
 ?>
 
 
